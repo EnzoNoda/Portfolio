@@ -7,7 +7,6 @@ import {
   DivPerfil,
   DivSkills,
   ImgPerfil,
-  PerfilDesc,
   Perfil,
   Habilidades,
   ImgLogo
