@@ -6,6 +6,10 @@ export const Center = styled.div`
   border-bottom: 1px solid white;
   justify-content: space-around;
   align-items: center;
+  @media screen and (max-width: 700px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 `
 
 export const Container = styled.div`
@@ -18,15 +22,22 @@ export const Title = styled.h1`
 export const Description = styled.h2`
   color: #fff;
   display: flex;
-  background-color: #11a81b;
+  background-color: #4b1eb3;
   border-radius: 7px;
   padding: 3px 10px 3px;
+  @media screen and (max-width: 700px) {
+    max-width: 300px;
+  }
 `
 
 export const Foto = styled.img`
   display: flex;
   justify-content: flex-end;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   padding: 50px;
+  @media screen and (max-width: 700px) {
+    width: 300px;
+    height: 300px;
+  }
 `

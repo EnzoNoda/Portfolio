@@ -26,8 +26,8 @@ export default function About() {
 
       <Descricao>
         Olá, eu sou o Enzo, designer e apaixonado em tecnologias e linguagens
-        front-end. Possuo conhecimento prévio HTML, CSS, JavaScript, e em NodeJS
-        para back-end. Atualmente, estudo React, React Native e TypeScript. Me
+        front-end. Possuo conhecimento prévio HTML, CSS, JavaScript, React, e em
+        NodeJS para back-end. Atualmente, estudo React Native e TypeScript. Me
         interesso em trabalhar com desenvolvimento de sites e aplicativos
         mobile. Aqui, você conhecerá um pouco do meu trabalho.
       </Descricao>

@@ -1,23 +1,48 @@
 import React from 'react'
-import { Head, Home, About, Projects, Contact } from './Style'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { FaBars } from 'react-icons/fa'
+import {
+  Head,
+  NavBarContainer,
+  NavItem,
+  MobileIcon,
+  NavMenu,
+  NavLogo,
+  NavLinks
+} from './Style'
+
 import './Style.css'
 
-export default function Header() {
+export default function Header({ toggle }) {
   return (
     <Head>
-      <Home>
-        <AnchorLink href="#Home">Home</AnchorLink>
-      </Home>
-      <About>
-        <AnchorLink href="#About">Sobre</AnchorLink>
-      </About>
-      <Projects>
-        <AnchorLink href="#Port">Projetos</AnchorLink>
-      </Projects>
-      <Contact>
-        <AnchorLink href="#Contatos">Contatos</AnchorLink>
-      </Contact>
+      <NavBarContainer>
+        <NavLogo to="/">E.N.</NavLogo>
+        <MobileIcon onClick={toggle}>
+          <FaBars />
+        </MobileIcon>
+        <NavMenu>
+          <NavItem>
+            <NavLinks offset={-85} to="Home">
+              Home
+            </NavLinks>
+          </NavItem>
+          <NavItem>
+            <NavLinks offset={-85} to="About">
+              Sobre
+            </NavLinks>
+          </NavItem>
+          <NavItem>
+            <NavLinks offset={-85} to="Port">
+              Projetos
+            </NavLinks>
+          </NavItem>
+          <NavItem>
+            <NavLinks offset={-85} to="Contatos">
+              Contatos
+            </NavLinks>
+          </NavItem>
+        </NavMenu>
+      </NavBarContainer>
     </Head>
   )
 }

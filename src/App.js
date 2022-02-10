@@ -1,21 +1,22 @@
 import './App.css'
+import { BrowserRouter as Router } from 'react-router-dom'
 import GlobalStyle from './components/GlobalStyle'
-import Header from './components/Header/Head'
 import Main from './components/Main/Center'
 import About from './components/About/About'
 import Port from './components/Port/Port'
 import Contatos from './components/Contatos/Contatos'
+import Home from './components/pages'
 
 function App() {
   return (
-    <div>
+    <Router>
       <GlobalStyle />
-      <Header />
+      <Home />
       <Main />
       <About />
       <Port />
       <Contatos />
-    </div>
+    </Router>
   )
 }
 

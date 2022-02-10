@@ -21,6 +21,9 @@ export const Descricao = styled.p`
   margin: 0;
   max-width: 800px;
   padding: 10px;
+  @media screen and (max-width: 700px) {
+    max-width: 300px;
+  }
 `
 
 export const Skills = styled.div`
@@ -29,16 +32,22 @@ export const Skills = styled.div`
   padding: 30px;
   border-radius: 25px;
   margin: 30px;
+  justify-content: center;
+  @media screen and (max-width: 700px) {
+    flex-wrap: wrap;
+  }
 `
 export const DivSkills = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
 `
 export const DivPerfil = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 40px;
+  justify-content: center;
+  margin-right: 10px;
 `
 export const Perfil = styled.h2`
   color: #fff;
@@ -57,7 +66,11 @@ export const ImgPerfil = styled.img`
   margin: 30px;
 `
 export const ImgLogo = styled.img`
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin: 10px;
+  @media screen and (max-width: 700px) {
+    width: 60px;
+    height: 60px;
+  }
 `
