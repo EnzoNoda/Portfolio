@@ -18,6 +18,9 @@ import alura from '../../assets/aluracord.png'
 import form from '../../assets/form.png'
 import todo from '../../assets/todo.png'
 import port from '../../assets/port.png'
+import cronometro from '../../assets/cronometro.png'
+import color from '../../assets/color.png'
+import tdee from '../../assets/tdee.png'
 
 export default function Port() {
   return (
@@ -159,6 +162,75 @@ export default function Port() {
             </a>
           </DivIcon>
           <Desc>Utilizado: React (Hooks, Function Components) e CSS</Desc>
+        </Proj>
+        <Proj>
+          <Nomes>Calculadora TDEE</Nomes>
+          <ImgProjeto src={tdee} />
+          <DivIcon>
+            <a
+              href="https://enzonoda.github.io/TDEECalculator/"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              <ImgEye src={eye} />
+            </a>
+            <a
+              href="https://github.com/EnzoNoda/TDEECalculator"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              <ImgEye src={git} />
+            </a>
+          </DivIcon>
+          <Desc>Utilizado: Javascript, HTML e CSS</Desc>
+        </Proj>
+        <Proj>
+          <Nomes>Cores Aleatorias (Hex)</Nomes>
+          <ImgProjeto src={color} />
+          <DivIcon>
+            <a
+              href="https://enzonoda.github.io/ColorFlipper/"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              <ImgEye src={eye} />
+            </a>
+            <a
+              href="https://github.com/EnzoNoda/ColorFlipper"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              <ImgEye src={git} />
+            </a>
+          </DivIcon>
+          <Desc>Utilizado: Javascript, HTML e CSS</Desc>
+        </Proj>
+        <Proj>
+          <Nomes>Cronômetro</Nomes>
+          <ImgProjeto src={cronometro} />
+          <DivIcon>
+            <a
+              href="https://enzonoda.github.io/Cronometro/"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              <ImgEye src={eye} />
+            </a>
+            <a
+              href="https://github.com/EnzoNoda/Cronometro"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              <ImgEye src={git} />
+            </a>
+          </DivIcon>
+          <Desc>Utilizado: Javascript, HTML e CSS</Desc>
         </Proj>
       </Projetos>
     </Container>
