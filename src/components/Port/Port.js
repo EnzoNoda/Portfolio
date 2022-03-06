@@ -21,6 +21,7 @@ import port from '../../assets/port.png'
 import cronometro from '../../assets/cronometro.png'
 import color from '../../assets/color.png'
 import tdee from '../../assets/tdee.png'
+import studies from '../../assets/studies.png'
 
 export default function Port() {
   return (
@@ -42,6 +43,31 @@ export default function Port() {
           </DivIcon>
           <Desc>
             Utilizado: React (Hooks, Function Components) e Styled Components
+          </Desc>
+        </Proj>
+        <Proj>
+          <Nomes>Temporizador de estudos</Nomes>
+          <ImgProjeto src={studies} />
+          <DivIcon>
+            <a
+              href="https://studies-timer.vercel.app"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              <ImgEye src={eye} />
+            </a>
+            <a
+              href="https://github.com/EnzoNoda/Studies-timer"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              <ImgEye src={git} />
+            </a>
+          </DivIcon>
+          <Desc>
+            Utilizado: Typescript, React (Hooks, Function Components) e SASS
           </Desc>
         </Proj>
         <Proj>
