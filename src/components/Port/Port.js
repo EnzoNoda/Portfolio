@@ -22,6 +22,8 @@ import cronometro from '../../assets/cronometro.png'
 import color from '../../assets/color.png'
 import tdee from '../../assets/tdee.png'
 import studies from '../../assets/studies.png'
+import aluroni from '../../assets/aluroni.png'
+import appRN from '../../assets/AppRN.png'
 
 export default function Port() {
   return (
@@ -249,6 +251,44 @@ export default function Port() {
             </a>
             <a
               href="https://github.com/EnzoNoda/Cronometro"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              <ImgEye src={git} />
+            </a>
+          </DivIcon>
+          <Desc>Utilizado: Javascript, HTML e CSS</Desc>
+        </Proj>
+        <Proj>
+          <Nomes>App Compra de Verduras</Nomes>
+          <ImgProjeto src={appRN} />
+          <DivIcon>
+            <a
+              href="https://github.com/EnzoNoda/native-navigation"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              <ImgEye src={git} />
+            </a>
+          </DivIcon>
+          <Desc>Utilizado: React Native e React Router</Desc>
+        </Proj>
+        <Proj>
+          <Nomes>Aluroni-SPA Restaurante Italiano</Nomes>
+          <ImgProjeto src={aluroni} />
+          <DivIcon>
+            <a
+              href="https://aluroni-phi.vercel.app"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              <ImgEye src={eye} />
+            </a>
+            <a
+              href="https://github.com/EnzoNoda/Aluroni"
               target="_blank"
               without
               rel="noreferrer"
